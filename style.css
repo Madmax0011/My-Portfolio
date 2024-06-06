@@ -46,3 +46,26 @@ section {
     border-radius: 70px;
     margin-top: 3rem ;
 }
+
+#skills {
+    padding: 2rem;
+    background: lightgray;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.skill {
+    background: darkgray;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.skill h3 {
+    margin-top: 0;
+}
