@@ -69,3 +69,45 @@ section {
 .skill h3 {
     margin-top: 0;
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    background: darkgray;
+    padding: 1rem;
+    border-radius: 9px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0.5rem;
+}
+
+.project p {
+    margin: 0.5rem 0;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0288d1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
