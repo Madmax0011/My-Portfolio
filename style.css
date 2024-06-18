@@ -111,3 +111,59 @@ section {
     text-decoration: underline;
 }
 
+#contact {
+    padding: 1rem 0rem 1rem 2rem;
+    background: #f4f4f4;
+    text-align: left;
+}
+
+#contact h2 {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    max-width: 300px;
+    max-height: 250px;
+    margin: 1rem;
+    padding: 1.5rem ;
+    background: lightgray;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 50px;
+}
+
+.contact-form .btn {
+    padding: 0.5rem 1rem;
+    background: #0288d1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form .btn:hover {
+    background: #0277bd;
+}
