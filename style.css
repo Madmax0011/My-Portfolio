@@ -167,3 +167,42 @@ section {
 .contact-form .btn:hover {
     background: #0277bd;
 }
+
+#social-media {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-media-links a {
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media-links a.linkedin {
+    color: #0077b5; /*blue*/
+}
+
+.social-media-links a.github {
+    color: #333; /*black*/
+}
+
+.social-media-links a.twitter {
+    color: #1da1f2; /*blue*/
+}
+
+.social-media-links a.instagram {
+    color: #e4405f; /*pink*/
+}
+
+.social-media-links a:hover {
+    opacity: 0.7; /* Slightly fade on hover */
+}
+
