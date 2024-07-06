@@ -1,3 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: lightgray;
+    color: #333;
+    text-align: center;
+}
+
 header {
     background: #333;
     color: #fff;
@@ -206,3 +217,9 @@ section {
     opacity: 0.7; /* Slightly fade on hover */
 }
 
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
